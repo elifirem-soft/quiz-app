@@ -3,6 +3,7 @@ Başlangıç seviye bir quiz uygulaması
 
 Bu proje, Python'da Nesne Yönelimli Programlama (OOP) prensiplerini kullanarak geliştirdiğim dinamik bir bilgi yarışması uygulamasıdır. Kod mimarisini tamamen modüler ve geliştirilebilir bir yapıda kurguladım.
 
+
 Neler Yaptım?
 
 Sınıf Yapısı ve Modülerlik: Uygulamayı iki ana sınıf üzerine inşa ettim. Question sınıfı ile her bir sorunun metnini, seçeneklerini ve doğru cevabını kapsülledim. Quiz sınıfı ile de oyunun genel akışını, skor takibini ve soru sırasını yönettim.
@@ -13,6 +14,7 @@ Dinamik Soru Akışı: random modülünü kullanarak soruların her seferinde fa
 
 Hata Yönetimi: Kullanıcının seçenekler dışında bir giriş yapması durumunda sistemi korumak adına checkAnswer metodu içerisinde özel hata kontrolleri (ValueError) uyguladım.
 
+
 Teknik Özellikler
 
 Dil: Python
@@ -20,6 +22,7 @@ Dil: Python
 Kullanılan Modüller: random (Soru karıştırma için)
 
 OOP Konseptleri: Sınıf tanımlama (Class), Örnekleme (Instance), Metotlar ve Kapsülleme.
+
 
 Nasıl Çalışır?
 
