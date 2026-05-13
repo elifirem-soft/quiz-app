@@ -6,14 +6,19 @@ Bu proje, Python'da Nesne Yönelimli Programlama (OOP) prensiplerini kullanarak 
 Neler Yaptım?
 
 Sınıf Yapısı ve Modülerlik: Uygulamayı iki ana sınıf üzerine inşa ettim. Question sınıfı ile her bir sorunun metnini, seçeneklerini ve doğru cevabını kapsülledim. Quiz sınıfı ile de oyunun genel akışını, skor takibini ve soru sırasını yönettim.
+
 Dinamik Soru Akışı: random modülünü kullanarak soruların her seferinde farklı bir sırayla gelmesini sağladım (random.sample). Bu sayede tekrar oynanabilirliği artırdım.
+
 İlerleme ve Skor Takibi: Kullanıcının o an kaçıncı soruda olduğunu gösteren bir ilerleme çubuğu (displayProgress) ve test sonunda başarı oranına göre puan hesaplayan bir sistem (displayScore) geliştirdim.
+
 Hata Yönetimi: Kullanıcının seçenekler dışında bir giriş yapması durumunda sistemi korumak adına checkAnswer metodu içerisinde özel hata kontrolleri (ValueError) uyguladım.
 
 Teknik Özellikler
 
 Dil: Python
+
 Kullanılan Modüller: random (Soru karıştırma için)
+
 OOP Konseptleri: Sınıf tanımlama (Class), Örnekleme (Instance), Metotlar ve Kapsülleme.
 
 Nasıl Çalışır?
