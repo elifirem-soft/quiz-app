@@ -28,10 +28,7 @@ quiz = Quiz(sorular)
 
 # display question içine soruyu yazdırma şıkları getirme(for) cevap alıp cevap doğruysa scoru bir artırma
 # soru indeksi artırma ve loadQuestiona yönlendirme var
-
 # loadQuestion içinde ise soru sayısı ve indeksler eşit olunca display score gösterme var (if)
 # else kısmı ise display progress ve display quesiton var
-
 # display scoreda ise puan, toplam puan, kaç sorunun kaç tanesini bildiniz ve toplam puanı yazdırma var
-
 # display progress içinde kaç sorunun kaçında olduğunu yazdırma var. total tanımlanacak ve question number
